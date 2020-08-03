@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+    font-family:sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.section100{
+    width: 100%;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+.body{
+    width: 1200px;
+    margin: auto;
+    font-size: 10px;
+}
+.texto{
+    font-size: 2em;
+}
+
+.linea{
+    width: 100%;
+    height: auto;
+    background-color: var(--colorBase);
+}
+
+body{
+    font-size: 10px;
+}
+/*MEDIDAS PARA EL TELEFONO*/
+
+/*RESOLUCIÓN DE 767*/
+@media only screen and (max-width: 767px) {
+
+    .body{
+        width: 95%;
+        margin: auto;
+    }
+}
+
+/*COLORES DE LA PÁGINA*/
+:root{
+    --colorBase: #035aa6;
+    --colorBase2: #40bad5;
+    --colorBase3: #689F38;
+    --colorBase4: #120136;
+    --colorBase5: #fcbf1e;
+    --colorTexto:  #848484;
+    --colorTextoFuerte: #6D6D6D;
+}
+.color1{
+    background-color: #ffffff;
+}
+
+
+
+
+
+/*------- CLASES PARA EL USO DE DESARROLLO*/
+
+.desColor{
+    background-color: red;
+}

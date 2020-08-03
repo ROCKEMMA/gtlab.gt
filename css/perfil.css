@@ -1,0 +1,249 @@
+.orientacionDeCajas{
+   overflow: hidden;
+}
+
+/*PERFIL DE USUARIO*/
+.rm_cajaDePerfiles{
+    width: 35em;
+    height: auto;
+    float: left;
+    overflow: hidden;
+}
+.rm_perfil{
+    font-size: 7px;/*<--- tamaño general*/
+    width: 47em;
+    height: 65em;
+    padding: 3em 3em 3em 3em;
+    border-radius: 3px;
+    box-sizing: border-box;
+    position: relative;
+    background-color: #ffffff;
+}
+.rm_imgPerfil{  
+    width: 30em;
+    height: 30em;
+    margin: auto;
+    border-radius: 100%;
+    background-image: url("../img/imgPerfiles/rockemma.png");
+    background-size: contain;
+    background-position: center;
+    box-shadow: 6px 7px 14px -8px rgba(0,0,0,0.75);
+}
+
+.nombreEstudiante {
+    font-size: 2.5em;
+    text-align: center;
+    margin-top:2em;
+    color: var(--colorParrafo);
+}
+
+.datos_perfil_estudiante{
+    font-size: 2em;
+    text-align: center;
+    margin-top:1em;
+    color: var(--colorParrafo);
+}
+.pines{
+    width: 35em;
+    height: 5em;
+    margin: auto;
+    margin-top:6em;
+    display: flex;
+    justify-content: center;
+}
+.pin{
+    width: 5em;
+    height: 5em;
+    margin: 0em 0.5em 0em 0.5em;
+}
+.cajaCorreo{
+    width: 41.5em;
+    padding: 1em 0em 3em 0em;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0px;
+}
+
+.rm_correoUsuario{
+    font-size: 1.8em;
+    text-align: center;
+    color: var(--colorTexto);
+}
+
+/*RESOLUCIÓN DE 1200*/
+@media only screen and (max-width: 1360px) {
+    
+    .rm_perfil{
+        font-size: 7px;/*<--- tamaño general*/
+    }
+
+}
+
+/**************************************************************
+* CAJA DE INFORMACIÓN GENERAL                             *
+**************************************************************/
+.rm_cajaDeInformacionGeneral{
+    
+    font-size: 10px;
+
+    width: 85em;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 3px;
+    padding: 3em 4em 3em 4em;
+    box-sizing: border-box;
+    overflow: hidden;
+    float: right;
+}
+
+/**************************************************************
+* DISEÑO DE LOS DATOS DEL USUARIO                             *
+**************************************************************/
+
+.rm_cajaDeInformacionDeUsuario{
+    height: auto;
+    overflow: hidden;
+}
+
+.rm_titulosPerfil{
+    color: var(--colorParrafo);
+    font-size: 25px;
+    margin: 0em 0em 1.5em 0em;
+}
+
+.rm_cajaDeInformacionDeUsuario > div{
+    width: 100%;
+    height: 4em;
+    padding-top: 1em;
+    margin: 1em 1em 1em 0em;
+    background-color: #F7FBFB;
+    border-radius: 0.3em;
+}
+
+.rm_tituloDato{
+    font-size: 1.6em;
+    color: va(--colorTexto);
+    margin-left: 1em;
+
+    display: inline-block;
+    width: 8em;
+    height: auto;
+}
+.rm_datoUsuario{
+    font-size: 1.6em;
+    color: va(--colorTexto);
+    text-decoration: none;
+}
+.rm_botonEditar{
+    float: right;
+    margin-right: 2em;
+}
+.rm_imgEditar{
+    width: 1.8em;
+}
+
+/**************************************************************
+*SECCIÓN DE LOS CUERSOS DEL ESTUDIANTE                        *
+**************************************************************/
+
+.cajaDecursos{
+    margin-top: 8em;
+    height: auto;
+    overflow: hidden;
+    background-color: ;
+}
+
+.curso{
+
+    font-size: 8px;
+
+    width: 28em;
+    height: 35em;
+    margin: 2em 2em 2em 2em;
+    border-radius: 0.5em;
+    float: left;
+    position: relative;
+    background-color: #F4F4F4;
+}
+.imgCurso{
+    width: 28em;
+    height: 15em;
+    margin: auto;
+    border-radius: 0.5em;
+    background-image: url("../img/imgCursos/redesNivel1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.tituloCurso{
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-left: 1em;
+    text-align: left;
+    color: var(--colorTexto);
+}
+.profesor{
+    font-size: 1.3em;
+    margin-top: 1em;
+    margin-left: 1em;
+    text-align: left;
+    color: var(--colorTexto);
+}
+
+/*DISEÑO DE LA BARRA DE PROGRESO*/
+.disBarraProgreso{
+    width: 20em;
+    height: 2em;
+    margin-left: 3.8em;
+}
+.porsentajeDelCurso{
+    font-size: 1.5em; 
+    text-align: right; 
+    margin-top: 1em;
+    margin-right: 2.2em;
+}
+
+.cajaBotones{
+    width: 27em;
+    height: auto;
+    position: absolute;
+    bottom: 1em;
+}
+.botonContinuarCurso{
+    width: 15em;
+    height: 2.5em;
+    padding-top: 0.7em;
+    box-sizing: border-box;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 1.5em;
+    /*float: right;*/
+    margin: auto;
+    margin-top: 1em;
+    margin-left: 1.9em;
+    background-color: var(--colorBase);
+    color: #ffffff;
+}
+
+/*RESOLUCIÓN DE 1360px*/
+@media only screen and (max-width: 1360px) {
+    
+    .curso{
+        font-size: 6px;/*<--- tamaño general*/
+    }
+
+}
+
+@media only screen and (max-width:767px) {
+
+    .curso{
+        font-size: 13px;/*<--- TAMAÑO GENERAL*/
+
+        width: 28em;
+        height: 35em;
+        margin: auto;
+        margin-bottom: 2em;
+        float: none;
+    }
+}
+
+
